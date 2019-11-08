@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -617,6 +617,33 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.home {
+  height: 100vh;
+  background-color: black;
+  background-image: url('../images/bg@2x.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+  .home-link {
+    width: 50%;
+    margin-left: auto;
+    text-decoration: none;
+    text-align: left;
+    padding:0 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color:#61335C;
+  }
+    .home-link span {
+      color:#900583;
+    }
+
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
